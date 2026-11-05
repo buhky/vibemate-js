@@ -1,0 +1,12 @@
+node_modules
+.env
+.env.example
+.vibemate_tmp
+data
+.git
+.gitignore
+*.md
+*.log
+rebuild.sh
+scripts
+.DS_Store

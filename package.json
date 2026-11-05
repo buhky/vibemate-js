@@ -1,0 +1,27 @@
+{
+  "name": "vibemate",
+  "version": "2.0.0",
+  "description": "Discord music bot: YouTube + MusicBrainz, tracks are downloaded locally before playback",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "music"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "@snazzah/davey": "^0.1.12",
+    "discord.js": "^14.27.0",
+    "libsodium-wrappers": "^0.8.4"
+  }
+}

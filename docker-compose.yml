@@ -1,0 +1,12 @@
+services:
+  vibemate:
+    build: .
+    container_name: vibemate-js
+    restart: unless-stopped
+    # Secrets and settings live in .env (copy .env.example to get started)
+    env_file: .env
+    volumes:
+      # Code changes take effect with a container restart, no rebuild needed
+      - ./src:/app/src:ro
+      # Saved and custom playlists
+      - ./data:/app/data

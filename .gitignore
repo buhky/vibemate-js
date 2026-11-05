@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# runtime data (playlists, autosave, cookies) stays on the host
+data/*
+!data/.gitkeep
+
+# downloads and build output
+.vibemate_tmp/
+node_modules/
+*.log
+*.tmp
+*.corrupt-*
+
+# editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
